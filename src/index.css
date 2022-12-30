@@ -1,0 +1,244 @@
+
+/*****************Global css *************************************/
+@font-face{
+  font-family:CircularStdBook;
+  src: url(../src/assets/fonts/CircularStdBook.ttf);
+}
+body {
+  background: #f6f7fb !important;
+  font-family:CircularStdBook !important;
+  color: #111;
+}
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;background: #d5d9e2;
+}::-webkit-scrollbar-thumb:hover {
+  transition: 0.3s;
+  background: #d5d9e2;
+  cursor: pointer;
+}
+.w-100{
+  width: 100%;
+}
+.mt-3negativ{
+  margin-top: -3px;
+}
+.mt-10negativ{
+  margin-top: -10px;
+}
+.w-14px{
+  width: 138px;
+  border-top: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+}
+.font-13px{
+  font-size: 13px;
+}
+.font-14px{
+  font-size: 14px !important;
+}
+.h-100{
+  height: 100vh;
+}
+.h-30px{
+  height: 15vh;
+}
+.text-right{
+  text-align: right;
+}
+.btn-primary{
+  height: 45px;
+  background: #455af3 !important;
+  border: none !important;
+  outline: none !important;
+  font-size: 14px !important;
+  box-shadow: none !important;
+}.btn-primary:hover{
+  background: #2837a3 !important;
+}
+.btn-outline-primary{
+  height: 45px;
+  background: none !important;
+  border: 1px solid #455af3 !important;
+  outline: none !important;
+  color: #455af3 !important;
+  font-size: 14px !important;
+  box-shadow: none !important;
+}.btn-outline-primary:hover{
+  background: #455af3 !important;
+  color: #fff !important;
+}
+.card{
+  border: none !important;
+  border-radius: 10px !important;
+}
+.card > .card-header{
+  border: none !important;
+  background: #fff;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  padding-top: 15px;
+}
+.btn-light{
+  color: #455af3 !important;
+}
+.card-alert{
+  background: #455af3 !important;
+  color: #ffffff !important;
+}
+.color-black{
+  color: black !important;
+}
+.form-control{
+  height: 45px;
+}
+/*****************Global css *************************************/
+
+/****************** Menu css ****************************************/
+.navbar{
+  background: #fff  !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+/****************** Menu css ****************************************/
+
+/************************ Modal **************************************/
+.ModalEvents{
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  background: #1111117f;
+}
+.modalEventesHeratd{
+  width: 30%;
+  border-radius: 20px;
+  background: #fff;
+}
+.btn-trash{
+  transition: 0.2s;
+  margin-right: -170px;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 20px;
+}.btn-trash:hover{
+  transition: 0.2s;
+  color: #455af3 !important;
+}
+/************************ Modal *************************************/
+/************************* calender *********************************/
+.btn-chevron{
+  transition: 0.3s;
+  margin-top: -5px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  border: none !important;
+  font-size: 14px !important;
+  color: #111;
+}
+.btn-chevron:hover{
+  transition: 0.3s;
+  color: #455af3 !important;
+}
+.btn-chevron-nav{
+  transition: 0.3s;
+  margin-top: 5px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  border: none !important;
+  font-size: 16px !important;
+  color: #111;
+} .btn-chevron-nav:hover{
+  transition: 0.3s;
+  color: #455af3 !important;
+}
+.calander{
+  font-size: 14px;
+}
+.btn-calander{
+  width: 100;
+  width: 39px;
+  border: none !important;
+  font-size: 14px !important;
+  padding: 2px !important;
+  color: #6a6a6a !important;
+  margin-bottom: 9px;
+}
+.btn-calander:hover{
+  background: #455af3 !important;
+  color: #ffffff !important;
+}
+.btn-calander.active{
+  background: #455af3 !important;
+  color: #ffffff !important;
+}
+.div-circle-calendar{
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.card-header-calender{
+  padding-top: 20px !important;
+  padding-bottom: 12px !important;
+  background: #fbfbfb !important;
+  color: #565e69 !important;
+}
+.calender-day{
+  flex-wrap: wrap;
+}
+.day-active{
+  color: #455af3;
+  font-weight: bold !important;
+}
+.event{
+  padding: 3px;
+  background: #4559f342;
+  color: #455af3;
+  border-radius: 5px;
+  font-size: 12px;
+  box-shadow: 0 0.5rem 1rem #4559f32e !important;
+}
+.btn-active{
+  color: #455af3 !important;
+  background: #4559f34a !important;
+}
+.fa-check{
+  font-size: 13px !important;
+}
+.card-calender{
+  background: #fff !important;
+  border-radius: 10px !important;
+}
+
+.bg-State{
+  color: #fff;
+  cursor: pointer;
+  z-index: 2;
+  position: sticky;
+}
+.cursor-crosshair{
+  cursor: crosshair;
+}
+/************************* calender *********************************/
+/************************ avatar **********************************/
+.avatar{
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100px; 
+}
+.avatar > img{
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 100px;
+}
